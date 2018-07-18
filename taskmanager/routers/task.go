@@ -17,7 +17,7 @@ func SetTaskRoutes(router *mux.Router) *mux.Router {
 	taskRouter.HandleFunc("/tasks/users/{id}", controllers.GetTasksByUser).Methods("GET")
 	taskRouter.HandleFunc("/tasks/{id}", controllers.DeleteTask).Methods("DELETE")
 	router.PathPrefix("/tasks").Handler(negroni.New(
-		negroni.HandlerFunc(common.Authorize),
+		// negroni.HandlerFunc(common.Authorize),
 		negroni.Wrap(taskRouter),
 	))
 	return router

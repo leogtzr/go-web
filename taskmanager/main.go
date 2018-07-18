@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/codegangsta/negroni"
-	common "github.com/shijuvar/go-web/taskmanager/common"
-	"github.com/shijuvar/go-web/taskmanager/routers"
+	common "github.com/leogtzr/go-web/taskmanager/common"
+	"github.com/leogtzr/go-web/taskmanager/routers"
 )
 
 //Entry point of the program

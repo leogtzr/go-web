@@ -17,7 +17,7 @@ func SetNoteRoutes(router *mux.Router) *mux.Router {
 	noteRouter.HandleFunc("/notes/tasks/{id}", controllers.GetNotesByTask).Methods("GET")
 	noteRouter.HandleFunc("/notes/{id}", controllers.DeleteNote).Methods("DELETE")
 	router.PathPrefix("/notes").Handler(negroni.New(
-		negroni.HandlerFunc(common.Authorize),
+		//negroni.HandlerFunc(common.Authorize),
 		negroni.Wrap(noteRouter),
 	))
 	return router
