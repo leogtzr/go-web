@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/shijuvar/go-web/taskmanager/models"
+	"github.com/leogtzr/go-web/taskmanager/models"
 )
 
 //Models for JSON resources

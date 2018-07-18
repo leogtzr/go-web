@@ -3,7 +3,7 @@ package controllers
 import (
 	"gopkg.in/mgo.v2"
 
-	"github.com/shijuvar/go-web/taskmanager/common"
+	"github.com/leogtzr/go-web/taskmanager/common"
 )
 
 // Context used for maintaining HTTP Request Context

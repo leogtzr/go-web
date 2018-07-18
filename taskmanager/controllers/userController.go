@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/shijuvar/go-web/taskmanager/common"
-	"github.com/shijuvar/go-web/taskmanager/data"
-	"github.com/shijuvar/go-web/taskmanager/models"
+	"github.com/leogtzr/go-web/taskmanager/common"
+	"github.com/leogtzr/go-web/taskmanager/data"
+	"github.com/leogtzr/go-web/taskmanager/models"
 )
 
 // Register add a new User document

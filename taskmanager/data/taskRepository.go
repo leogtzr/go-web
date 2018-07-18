@@ -6,7 +6,7 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/shijuvar/go-web/taskmanager/models"
+	"github.com/leogtzr/go-web/taskmanager/models"
 )
 
 type TaskRepository struct {

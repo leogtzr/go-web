@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/shijuvar/go-web/taskmanager",
+	"ImportPath": "github.com/leogtzr/go-web/taskmanager",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Deps": [

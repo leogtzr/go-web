@@ -8,9 +8,9 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/shijuvar/go-web/taskmanager/common"
-	"github.com/shijuvar/go-web/taskmanager/data"
-	"github.com/shijuvar/go-web/taskmanager/models"
+	"github.com/leogtzr/go-web/taskmanager/common"
+	"github.com/leogtzr/go-web/taskmanager/data"
+	"github.com/leogtzr/go-web/taskmanager/models"
 )
 
 // CreateNote inserts a new Note document for a TaskId

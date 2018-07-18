@@ -9,8 +9,8 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/shijuvar/go-web/taskmanager/common"
-	"github.com/shijuvar/go-web/taskmanager/data"
+	"github.com/leogtzr/go-web/taskmanager/common"
+	"github.com/leogtzr/go-web/taskmanager/data"
 )
 
 // CreateTask insert a new Task document
